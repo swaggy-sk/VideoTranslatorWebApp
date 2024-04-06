@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "summer-prism-419105",
+  "private_key_id": "e96b37967f0c5101cc2ffe9814b38db8da13ff6d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCWI3yvzO+pcRO/\n3rS8Ph4YL6qOiKQsqLR1GyjjaSFKYuWsyvoBL6nDlUnFl+LMYS8hdHaTervEZZSw\nmJ/NBNKe6HvH38bX5tczIKOn84C0kWYyU50n8LuwwvVRAZiPMjUR8ZSWJlWvd7UB\nIIg27wptd9ZgCU6Bph+t+TIrJ5/1GDhezUH9ukeh8BfvScfjl9WsTJ9lOQx0RXlI\nOQRxxWser9Vc96ujptdOoCvqaj88BysSMO3aZhidnaW7dzq4PH0t5OGXdRp6J8tO\nHVZcEfIPbfy0LRiF1cURTJFeg4L9Z5rzEIyG+4GevEWBd1d2itp2/PiXElQDk1Zc\n0hyg7oIZAgMBAAECggEAGgZMtqxvXo+bPMb9zSN3U/nvNoW474TOwv3SOJkgjCRY\na3tDmrEIXD6kavvI9GRkJwhpBWdg5Mo22+WYzZDocWMbEapYbVQ2OUaPF629wY7y\niAa2VxYDcsBYhZIhP7EUQef+OYirkZ7OYUOiWONWi2MaZcs3MIH7O8zWRWS49WLZ\naN6zczhQNgIadvw5hG9l533Bx+Pd5vkw3oRVmRMrfKY3ij7BCRy8A9cRavW+2u9F\nn3gCi2dl4cAhmqjzi5BbvdH2o34L1HIdIVndSmzQX8a6L64NHNOTYX3Ff6BmsKwZ\nw0VNLr2NVntZ044zUtso0eipksMOR/41/T+7I4q1gQKBgQDHQ92xwP3ZfhVjJuC7\nGujzh+k7x6Qr4j8ZKedaMrmGbIvTLMOCT62txbvosslG5uJ1TzgO3FyjsckOjYS+\nIGTxeH74KvEyZ3XnIHZpA1717uH3RnKmM17AVf+LNMzvNkCjScPQZkNAvVp7xm+Y\n56creybTe1ZWZx58GnBNkBU1AwKBgQDA4t2eQYTTfwZS3YhoWiZbfyruqm8/g82X\nHGYf2SuFJpBxl4sp3zN1PXbktDjoF4d95xTzG2ELbjgHyuo781ZMpqqtztfu3hlW\nZhpWiMl0/iIm0Q7kA9i5+xg5a+yE+HyL3faMzYxaY7XK1kCO8KLhKwlyXzxT5brY\n61t9gTZ7swKBgBhS8H0CUfp6qaGw3T35yvXvYUkq1Z+Fvq4Tr2oTRxJhra/ZhwQh\nNdJAkO+W43sENCCdyvoFbEmPKjvcipeq3KedTeJ9W3QLrRjJnaqz/qOGxY6pytT+\n8FIKLWeQynNo6/sCxiRqV0tP0fvJ/VVs8bsdDWBDbgaeD9qWX58YN36BAoGAf0z7\nQPgy5rbeAJCu91gQGrDqL8wSUhP1+vZGPFzDCUSzbhS7Ru5FcuoW7sg3Co6E4MZD\nIFOAj9+1YQc94kUuPrZ8zOtHviGdDVWjqlrqwqj69y1gq4ISZmRez374AaZR5Kmg\nj7sVF47ZKz6OKwiMJxmVSYOrOB/VWlay8jj2MVsCgYAuljSXIUW7fGakBFYqwLTS\n5Jj6xQ0QfrteuxrJ46SBRoCurTNfSanYYldPo4PTT8AKjEljdjt+JOLIwsLdTLLf\ny4nhUPBMsNcOrYZrbIg9nUC5h47wYHM5ol/29K0zMXVHCys9MkHAik9cetzguSen\n2qJ9bMjFOeCrfQ5eQHRjWg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "googleapplicationcreds@summer-prism-419105.iam.gserviceaccount.com",
+  "client_id": "106098172739340950867",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googleapplicationcreds%40summer-prism-419105.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
