@@ -53,7 +53,7 @@ def submit():
             messagebox.showerror("Error", "Please choose a different destination path.")
     
     # Backend processing here...
-    messagebox.showinfo("Processing", "Audio file is being generated...")
+    # messagebox.showinfo("Processing", "Audio file is being generated...")
 
 # Function to update the message after translation
 def update_message():
@@ -64,8 +64,17 @@ def update_message():
 
 # Function to handle file download
 def download():
-    # Backend processing for file download
-    messagebox.showinfo("Download", "File downloaded successfully!")
+    # Prompt the user to select the path to save the file
+    save_path = filedialog.asksaveasfilename(defaultextension=".mp4", filetypes=[("MP4 files", "*.mp4")])
+
+    if save_path:
+        # Run ffmpeg command to concatenate video and audio
+        input_video = ffmpeg.input(selected_file_path)
+        input_audio = ffmpeg.input('translated_audio.wav')
+        ffmpeg.concat(input_video, input_audio, v=1, a=1).output(save_path).run()
+        
+        messagebox.showinfo("Download", "File downloaded successfully! Now you can close this window")
+
 
 # Load your video file and extract the audio
 def convertVideoToMp3(input_file, output_file):
@@ -192,11 +201,8 @@ def trascript_and_trans(audio_file_path):
     with open('translated_audio.wav', 'wb') as out:
         out.write(response.audio_content)
         
-    messagebox.showinfo("Translation", "Audio File is Generated...")
-    # Replace the English audio in the video with the Telugu audio
-    input_video = ffmpeg.input(selected_file_path)
-    input_audio = ffmpeg.input('translated_audio.wav')
-    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('finished_video.mp4').run()
+    messagebox.showinfo("Translation", "Translation succesfull, You can Download the File Now !")
+    
 
 
 
