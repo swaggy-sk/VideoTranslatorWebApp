@@ -232,19 +232,6 @@ input_language_var = tk.StringVar()
 output_language_var = tk.StringVar()
 voice_type_var = tk.StringVar()
 
-# input_language_label = ttk.Label(frame_language, text="Input Language:", font=("Helvetica", 14))
-# input_language_label.grid(row=0, column=0, padx=20, pady=20)
-# input_language_dropdown = ttk.Combobox(frame_language, textvariable=input_language_var, state="readonly", font=("Helvetica", 14))
-# input_language_dropdown['values'] = (
-#     "English","Afrikaans", "Arabic", "Armenian", "Azerbaijani", "Belarusian", "Bosnian", "Bulgarian", "Catalan", "Chinese",
-#     "Croatian", "Czech", "Danish", "Dutch",  "Estonian", "Finnish", "French", "Galician", "German",
-#     "Greek", "Hebrew", "Hungarian", "Icelandic", "Indonesian", "Italian", "Japanese", "Kannada", "Kazakh",
-#     "Korean", "Latvian", "Lithuanian", "Macedonian", "Malay", "Maori", "Nepali", "Norwegian", "Persian",
-#     "Polish", "Portuguese", "Romanian", "Russian", "Serbian", "Slovak", "Slovenian", "Spanish", "Swahili", "Swedish",
-#     "Tagalog", "Thai", "Turkish", "Ukrainian", "Vietnamese", "Welsh"
-# )
-# input_language_dropdown.grid(row=0, column=1, padx=20, pady=20)
-
 voice_type_label = ttk.Label(frame_language, text="Voice Type:", font=("Helvetica", 14))
 voice_type_label.grid(row=1, column=0, padx=20, pady=20)
 voice_type_dropdown = ttk.Combobox(frame_language, textvariable=voice_type_var, state="readonly", font=("Helvetica", 14))
