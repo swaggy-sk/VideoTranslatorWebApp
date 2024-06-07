@@ -123,7 +123,7 @@ If you have any suggestions or improvements, feel free to create a pull request 
 ## Publication
 
 This project is published on https://www.ijisrt.com/harnessing-open-innovation-for-translating-global-languages-into-indian-lanuages
-Refer the above for the detailed stats of the application
----
+
+
 
 This README provides clear instructions for setting up and running your application, ensuring that even beginners can follow along without any issues.
