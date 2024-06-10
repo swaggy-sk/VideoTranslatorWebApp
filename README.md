@@ -38,7 +38,7 @@ You can install these libraries using pip:
 
 ```bash
 pip install google-cloud-speech google-cloud-translate google-cloud-texttospeech google-cloud-storage pydub scipy ffmpeg-python whisper
-```
+````
 
 ## GCP Account and API Keys
 
