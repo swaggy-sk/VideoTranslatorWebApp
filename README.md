@@ -1,6 +1,6 @@
 # Video Translator
 
-This application allows you to upload an MP4 video, extract the audio, transcribe it, translate the transcription into various languages, and generate an audio file in the selected language. The translated audio can then be merged back with the original video.
+This application allows you to upload an MP4 video, extract the audio, transcribe it, translate the transcription into various languages, and generate an audio file in the selected language. The translated audio can then be merged back with the original video. 
 
 ## Table of Contents
 
